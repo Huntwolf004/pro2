@@ -4,7 +4,7 @@ trigger:
 pool:
   name: Default
   demands:
-    - agent.name -equals DRUNKENWOLF
+    - agent.name -equals Drunkenwolf
 
 steps:
 - checkout: self
